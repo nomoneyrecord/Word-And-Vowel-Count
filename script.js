@@ -1,18 +1,8 @@
-function getInputValue() {
-  let inputVal = document.getElementById("myinput").value; 
- 
-}
+const showResult = document.getElementById('result');
+const count = 0
+const Input = document.getElementById('input');
+const button = document.getElementById('button');
 
-function vowel_counter(str1) {
-  let vowels = 'aeiouAEIOU';
-  let count = 0;
-
-  for(let i = 0; i < str1.length ; i++) {
-    if (vowels.indexOf(str1[x]) !== -1){
-      count += 1;
-    }
-  }
-  return count;
-}
-
-console.log(vowelCounter("I'm having a good day"));
+button.addEventListener('click', () => {
+  const input = document.getElementById('input').value.toLowerCase();
+})
