@@ -12,17 +12,9 @@ function countWords(){
 
   document.getElementById("show").innerText = numWord;
 }
-const vowels = ["a", "e", "i", "o", "u"]
 
-function countVowels(text) {
-  let count = 0;
-  let countVowels = document.getElementById("input").value;
-
-for (let letter of text.toLowerCase()) {
-  if (countVowels.includes(letter)) {
-    count++
-  }
-}
+function vowelCounter(str) {
+  return str.replace(/[^aeiou]/g, "").length;
 
 
 }
