@@ -12,9 +12,3 @@ function countWords(){
 
   document.getElementById("show").innerText = numWord;
 }
-
-function vowelCounter(str) {
-  return str.replace(/[^aeiou]/g, "").length;
-
-
-}
