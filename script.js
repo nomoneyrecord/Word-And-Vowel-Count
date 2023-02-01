@@ -13,13 +13,13 @@ function countWords(){
   document.getElementById("show").innerText = numWord;
 }
 
-function countVowels(str1){
+function countVowels(){
+  let words = document.getElementById("input").value;
   let vowels = 'aeiouAEIOU';
   let numVowel = 0;
 
-  for (let x = 0; x < str1.length; x++){
-    const currentCharacter = words[i];
-    if (vowels.indexOf(str1[x]) !== -1)
+  for (let x = 0; x < words.length; x++){
+    if (vowels.indexOf(words[x]) !== -1)
     {
       numVowel += 1;
     }

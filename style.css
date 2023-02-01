@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  font-family: cursive;
+  background-color:rgb(45, 43, 43);
+  color:rgb(163, 159, 159)
+}
+
+h1 {
+  font-size: 50px;
+}
+
+textarea {
+  font-family: cursive;
+  background-color: rgb(35, 35, 34);
+  color:rgb(194, 114, 29);
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+button {
+  width: 90px;
+  background-color: coral;
+  font-family: cursive;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 30px;
+}
+
+.placeholder {
+  color:rgb(45, 43, 43);
+}
